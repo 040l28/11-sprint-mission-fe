@@ -53,7 +53,7 @@ table {
 
 
 .container{
-  width: 640px;
+  width: 40rem;
 }
 
 body{
@@ -69,8 +69,8 @@ body{
 }
 
 #logo{
- width: 396px;
- height: 132px;
+ width: 24.75rem;
+ height: 8.25rem;
 }
 
 #logo-image{
@@ -82,26 +82,25 @@ body{
 #login-form{
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  gap: 1rem;
 }
 
 label{
  font-weight: 700;
  font-style: Bold;
- font-size: 18px;
- line-height: 26px;
+ font-size: 1.125rem;
+ line-height: 1.625rem;
  color: #1F2937;
 }
 
 input{
-  width: 640px;
-  height: 56px;
-  gap: 10px;
-  border-radius: 12px;
-  padding: 16px 24px 16px 24px;
+  width: 100%;
+  height: 3.5rem;
+  gap: 0.625rem;
+  border-radius: 0.75rem;
+  padding: 1rem 1.5rem;
   background-color: #F3F4F6;
   border: 0;
-  width: 100%;
 
   display: flex;
   align-items: center;
@@ -114,14 +113,14 @@ input{
 }
 
 #password-box img{
-  width: 24px;
-  height: 24px;
+  width: 1.5rem;
+  height: 1.5rem;
   position: absolute;
-  right: 5px;
+  right: 0.312rem;
   top: 50%;
   transform: translateY(-50%);
   cursor: pointer;
-  margin-right: 5px;
+  margin-right: 0.312rem;
 }
 
 #confirm-password-box{
@@ -131,11 +130,11 @@ input{
 
 #confirm-password-box img{
   position: absolute;
-  right: 12px;
+  right: 0.75rem;
   top: 50%;
   transform: translateY(-50%); 
-  width: 24px;
-  height: 24px;
+  width: 1.5rem;
+  height: 1.5rem;
   cursor: pointer;
 }
 
@@ -143,73 +142,48 @@ input:focus {
   border-color: #3692FF;
 } 
 
-#email::placeholder{
+#email::placeholder,
+#nickname::placeholder,
+#password::placeholder,
+#confirm-password::placeholder
+{
  font-weight: 400;
  font-style: Regular;
- font-size: 16px;
- line-height: 26px;
- letter-spacing: 0%;
- color: #9CA3AF;
-}
-
-#nickname::placeholder{
- font-weight: 400;
- font-style: Regular;
- font-size: 16px;
- line-height: 26px;
- letter-spacing: 0%;
- color: #9CA3AF;
-}
-
-#password::placeholder{
- font-weight: 400;
- font-style: Regular;
- font-size: 16px;
- line-height: 26px;
- letter-spacing: 0%;
- color: #9CA3AF;
-}
-
-#confirm-password::placeholder{
- font-weight: 400;
- font-style: Regular;
- font-size: 16px;
- line-height: 26px;
- letter-spacing: 0%;
+ font-size: 1rem;
+ line-height: 1.625rem;
  color: #9CA3AF;
 }
 
 #signup-btn{
- width: 640px;
- height: 56px;
- gap: 10px;
- border-radius: 40px;
- padding: 16px 124px;
+ width: 100%;
+ height: 3.5rem;
+ gap: 0.625rem;
+ border-radius: 2.5rem;
+ padding: 1rem 7.75rem;
  border: 0;
  background-color: #9CA3AF;
  font-weight: 600;
  font-style: SemiBold;
- font-size: 20px;
- line-height: 32px;
+ font-size: 1.25rem;
+ line-height: 2rem;
  text-align: center;
  vertical-align: middle;
  color: #F3F4F6;
- margin-top: 24px;
+ margin-top: 1.5rem;
  cursor: pointer;
 }
 
 #signup-btn.active{
   background-color: #3692FF;
-  cursor: pointer;
 }
 
 #simple-login{
- margin: 24px 0;
- width: 640px;
- height: 74px;
- gap: 10px;
- border-radius: 8px;
- padding: 16px 23px;
+ margin: 1.5rem 0;
+ width: 100%;
+ height: 4.625rem;
+ gap: 0.625rem;
+ border-radius: 0.5rem;
+ padding: 1rem 1.4375rem;
  background-color: #E6F2FF;
  display: flex;
  justify-content: space-between;
@@ -219,14 +193,14 @@ input:focus {
 #simple-login p{
  font-weight: 500;
  font-style: Medium;
- font-size: 16px;
- line-height: 26px;
+ font-size: 1rem;
+ line-height: 1.625rem;
 }
 
 #simple-login img{
- width: 42px;
- height: 42px;
- margin: 8px;
+ width: 2.625rem;
+ height: 2.625rem;
+ margin: 0.5rem;
  cursor: pointer;
 }
 
@@ -234,26 +208,22 @@ input:focus {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 4px;
+  gap: 0.25rem;
 }
 
 #signup p{
  font-weight: 500;
- font-style: Medium;
- font-size: 14px;
- line-height: 24px;
- letter-spacing: 0%;
+ font-size: 0.875rem;
+ line-height: 1.5rem;
  color: #1F2937;
 }
 
 #signup a{
  font-weight: 500;
  font-style: Medium;
- font-size: 14px;
+ font-size: 0.875rem;
  line-height: 100%;
- letter-spacing: 0%;
  text-decoration: underline;
  text-decoration-style: solid;
-text-decoration-thickness: 0%;
 color: #3692FF;
 }
