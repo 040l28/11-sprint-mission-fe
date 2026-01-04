@@ -1,0 +1,51 @@
+.header {
+  background: #ffffff;
+  padding: 0.5625rem 12.5rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.headerLeft {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.logo {
+  width: 9.5625rem;
+  height: 3.1875rem;
+}
+
+.nav {
+  display: flex;
+  gap: 0.625rem;
+}
+
+.navItem {
+  color: #4b5563;
+  text-decoration: none;
+  font-size: 1.125rem;
+  font-weight: 700;
+  padding: 1.3125rem 0.9375rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loginBtn {
+  width: 8rem;
+  height: 3rem;
+  border-radius: 0.5rem;
+  background: #3692ff;
+  color: #f3f4f6;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  text-decoration: none;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
