@@ -1,0 +1,28 @@
+.pagination {
+  display: inline-flex;
+  gap: 0.25rem;
+}
+
+& .pageButton {
+  width: 2.5rem;
+  height: 2.5rem;
+  padding: 0.7813rem;
+  border-radius: 2.5rem;
+  border: 0.0625rem solid var(--Cool-Gray-200, #e5e7eb);
+  background: #fff;
+  color: var(--Cool-Gray-500, #6b7280);
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.7813rem;
+
+  &.active {
+    background: #2f80ed;
+    color: white;
+  }
+}
